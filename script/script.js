@@ -4,7 +4,7 @@ let resposta2;
 let resposta3;
 let palavraCompleta = ""
 
-function verifica(){
+/*function verifica(){
     resposta.innerHTML = ""
     if(campo.value === ""){
         resposta.innerHTML = ""
@@ -27,10 +27,10 @@ function verifica(){
         }
     } 
 }
-campo.addEventListener("keyup", verifica)
+campo.addEventListener("keyup", verifica)*/
 
 
-/*function verifica(e){
+function verifica(e){
     if(e.keyCode == 13 ){
         resposta.innerHTML = ""
         if(campo.value === ""){
@@ -56,7 +56,7 @@ campo.addEventListener("keyup", verifica)
     }
     
 }
-campo.addEventListener("keyup", verifica)*/
+campo.addEventListener("keyup", verifica)
 
 
 

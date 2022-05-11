@@ -25,7 +25,9 @@ main{
 .perguntas-e-respostas{
     width:100%;
     height:calc(100vh - 105px);
-    background-color:white;
+    background-image:url("https://xtibia.com/forum/uploads/monthly_2016_04/mini.png.a11c5c6ce6698cf43295eb51829e97f1.png");
+    background-size:cover;
+    background-position:center;
     border:1px solid #000;
     margin-top:2em;
     overflow:auto;
@@ -35,6 +37,7 @@ main{
     font-size:18px;
     padding:5px 3px;
     border:1px solid #000;
+    background-color:white;
 }
 .certo{
     color:green;
@@ -45,4 +48,18 @@ main{
     color:red;
     font-size:20px;
     font-weight:bold;
+}
+
+@media screen and (max-width:600px){
+    main{
+        width:auto;
+    }
+    .perguntas-area{
+        width:85%;
+    }
+    .perguntas-area input{
+        background-color:#fff;
+        border:1px solid #000;
+        border-radius:5px;
+    }
 }
