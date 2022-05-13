@@ -37,7 +37,7 @@ function verifica(e){
             resposta.innerHTML = ""
         }else{
             for(let i = 0; i < perguntas.length; i++){
-                if(perguntas[i][0].includes(campo.value)){
+                if(perguntas[i][0].toLowerCase().includes(campo.value)){
                     //resposta2 = perguntas[i][1]? resposta2 = "V":resposta2 = "X"
                     let pergunta = () => {
                         if(perguntas[i][1]){
